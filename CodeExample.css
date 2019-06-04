@@ -1,0 +1,49 @@
+.example {
+    background-color: #f1f1f1;
+    border: 1px solid #e5e5e5;
+    padding: 20px 15px;
+    margin: 30px 0;
+    color: rgba(64, 64, 64, 0.9);
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.example {
+    word-break: break-all;
+}
+
+.example span {
+    margin: 0;
+}
+
+.example.code {
+   font-size: 16px;
+}
+
+.indented {
+    margin-left: 2% !important;
+    display: block !important;
+}
+
+.indented p {
+    margin-bottom: .5em;
+}
+
+.code .word:nth-child(odd) {
+    color: #405da6;
+}
+
+.code .word:nth-child(even) {
+    color: #cf1d41;
+}
+
+.highlight {
+    background: #f4e6eb;
+    color: #ce4072;
+    font-style: normal;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.example br {
+    margin-bottom: 12px;
+}
+
